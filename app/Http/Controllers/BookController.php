@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Response;
 
 class BookController extends Controller
 {
@@ -16,7 +17,8 @@ class BookController extends Controller
      */
     public function index()
     {
-        //
+        $books = Books::all();
+        return Response::json($books);
     }
 
     /**
