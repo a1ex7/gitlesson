@@ -28,7 +28,7 @@ class BookController extends Controller
      */
     public function create()
     {
-        //
+        // Add some code
     }
 
     /**
