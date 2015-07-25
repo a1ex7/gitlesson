@@ -18,7 +18,7 @@ class BookController extends Controller
     public function index()
     {
         $books = Books::all();
-        return Response::json($books);
+        return Response::array($books);
     }
 
     /**
@@ -28,7 +28,7 @@ class BookController extends Controller
      */
     public function create()
     {
-        // Add some code
+        // features2
     }
 
     /**
