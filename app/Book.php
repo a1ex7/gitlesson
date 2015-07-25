@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Book extends Model
 {
     public function users(){
-        // develop 1
+        // develop 2
     }
 }
